@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veri Silme Talebi — Masallar Diyarı / Fairyland</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.7; }
+  h1, h2 { color: #4a2c8a; }
+  h2 { margin-top: 32px; }
+  a { color: #4a2c8a; }
+  .updated { color: #888; font-size: 13px; }
+  .highlight { background: #f5f0ff; padding: 14px 18px; border-left: 4px solid #4a2c8a; margin: 16px 0; border-radius: 4px; }
+  .step { background: #fff; border: 1px solid #e6e0f0; border-radius: 8px; padding: 14px 18px; margin: 10px 0; }
+  .step-num { display: inline-block; width: 24px; height: 24px; background: #4a2c8a; color: #fff; border-radius: 12px; text-align: center; line-height: 24px; font-weight: bold; margin-right: 8px; font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th, td { border: 1px solid #ddd; padding: 10px; text-align: left; font-size: 14px; }
+  th { background: #f5f0ff; }
+  .lang-toggle { text-align: center; margin: 20px 0; }
+  .lang-toggle a { display: inline-block; padding: 6px 14px; margin: 0 4px; background: #f5f0ff; border-radius: 6px; text-decoration: none; font-size: 14px; }
+</style>
+</head>
+<body>
+<p><a href="index.html">← Ana sayfa</a></p>
+
+<div class="lang-toggle">
+  <strong>Dil / Language:</strong>
+  <a href="#tr">Türkçe</a>
+  <a href="#en">English</a>
+</div>
+
+<a id="tr"></a>
+<h1>Veri Silme Talebi</h1>
+<p><strong>Geliştirici:</strong> İsmet Deniz Balta &nbsp;|&nbsp; <strong>Uygulama:</strong> Masallar Diyarı / Fairyland</p>
+<p class="updated">Son güncelleme: 13 Mayıs 2026</p>
+
+<div class="highlight">
+<strong>Önemli:</strong> Masallar Diyarı uygulaması <strong>hiçbir kişisel veriyi sunucularımıza göndermez</strong>. Tüm veriler yalnızca cihazınızda saklanır (AsyncStorage). Bu yüzden "silinecek sunucu kaydı" yoktur — sadece cihazınızdaki yerel verileri temizlemeniz yeterlidir.
+</div>
+
+<h2>Hangi Veriler Saklanır?</h2>
+<table>
+<tr><th>Veri</th><th>Saklama Yeri</th><th>Silme Yöntemi</th></tr>
+<tr><td>Çocuk adı (opsiyonel)</td><td>Cihaz yerel</td><td>Aşağıdaki yöntemler</td></tr>
+<tr><td>Çocuk yaşı</td><td>Cihaz yerel</td><td>Aşağıdaki yöntemler</td></tr>
+<tr><td>Dil tercihi (TR/EN)</td><td>Cihaz yerel</td><td>Aşağıdaki yöntemler</td></tr>
+<tr><td>İlerleme (masallar, rozetler, oyun istatistikleri)</td><td>Cihaz yerel</td><td>Aşağıdaki yöntemler</td></tr>
+<tr><td>Uygulama ayarları</td><td>Cihaz yerel</td><td>Aşağıdaki yöntemler</td></tr>
+<tr><td>Premium abonelik durumu</td><td>Apple / Google Play (anonim)</td><td>Apple / Google üzerinden iptal</td></tr>
+</table>
+
+<h2>Veri Silme Yöntemleri</h2>
+
+<div class="step">
+<p><span class="step-num">1</span> <strong>Uygulama içinden silin (önerilen):</strong></p>
+<ul>
+  <li>Uygulamayı aç → <strong>Profil</strong> sekmesine git</li>
+  <li>Aşağı kaydır → <strong>Ayarlar</strong> sekmesine geç</li>
+  <li>"<strong>🗑️ Veri ve Gizlilik</strong>" bölümünü bul</li>
+  <li>"<strong>Tüm verilerimi sil</strong>" butonuna dokun</li>
+  <li>Onay verince tüm yerel veriler kalıcı olarak silinir, uygulama yeni kurulmuş gibi açılır</li>
+</ul>
+</div>
+
+<div class="step">
+<p><span class="step-num">2</span> <strong>Uygulamayı silerek temizleyin:</strong></p>
+<ul>
+  <li>iOS: Ayarlar → Genel → iPhone Depolama → Masallar Diyarı → <strong>Uygulamayı Sil</strong></li>
+  <li>Android: Ayarlar → Uygulamalar → Masallar Diyarı → <strong>Yükle</strong></li>
+  <li>Bu işlem tüm yerel verileri kalıcı olarak siler.</li>
+</ul>
+</div>
+
+<div class="step">
+<p><span class="step-num">3</span> <strong>Aboneliği iptal edin (varsa):</strong></p>
+<ul>
+  <li>iOS: Ayarlar → Apple ID → Abonelikler → Masallar Diyarı → <strong>İptal</strong></li>
+  <li>Android: Google Play Store → Profil → Ödemeler ve abonelikler → Abonelikler → Masallar Diyarı → <strong>İptal</strong></li>
+</ul>
+</div>
+
+<div class="step">
+<p><span class="step-num">4</span> <strong>E-posta ile talep (sunucu kaydı yok, ama doğrulama isterseniz):</strong></p>
+<ul>
+  <li>Bize yazın: <a href="mailto:ismetdenizbalta@gmail.com">ismetdenizbalta@gmail.com</a></li>
+  <li>Konu: "Veri Silme Talebi"</li>
+  <li>30 gün içinde yanıt veririz</li>
+  <li>Not: Sunucumuzda kişisel veriniz olmadığı için silinecek bir kayıt bulunmayabilir; bunu da yazılı olarak teyit ederiz</li>
+</ul>
+</div>
+
+<h2>Silinmeyen / Saklanan Veriler</h2>
+<p><strong>Yok.</strong> Tüm uygulama verileri yerel olarak saklandığı için "sunucumuzda saklanan veri" diye bir şey yoktur. Uygulamayı sildiğinizde veya uygulama içinden veri silme yaptığınızda <strong>her şey silinir</strong>.</p>
+
+<p>Premium aboneliğiniz Apple veya Google Play tarafından yönetilir; biz buradaki ödeme verisine erişemeyiz. Abonelik iptali için yukarıdaki Adım 3'e bakın.</p>
+
+<h2>Yasal Haklarınız</h2>
+<p>KVKK Madde 11, GDPR Madde 17 ve COPPA kapsamında verilerinizin silinmesini talep etme hakkına sahipsiniz. Yukarıdaki yöntemlerle bu hakkı uygulayabilirsiniz.</p>
+
+<p>Detaylı bilgi için: <a href="kvkk-tr.html">KVKK Aydınlatma Metni</a> &nbsp;|&nbsp; <a href="privacy-policy-tr.html">Gizlilik Politikası</a></p>
+
+<hr style="margin: 40px 0; border: none; border-top: 1px solid #eee;">
+
+<a id="en"></a>
+<h1>Data Deletion Request</h1>
+<p><strong>Developer:</strong> İsmet Deniz Balta &nbsp;|&nbsp; <strong>App:</strong> Fairyland / Masallar Diyarı</p>
+<p class="updated">Last updated: May 13, 2026</p>
+
+<div class="highlight">
+<strong>Important:</strong> The Fairyland app <strong>does not send any personal data to our servers</strong>. All data is stored only on your device (AsyncStorage). Therefore there is no "server record to delete" — you only need to clear the local data on your device.
+</div>
+
+<h2>What Data Is Stored?</h2>
+<table>
+<tr><th>Data</th><th>Storage</th><th>How to Delete</th></tr>
+<tr><td>Child name (optional)</td><td>Device local</td><td>See methods below</td></tr>
+<tr><td>Child age</td><td>Device local</td><td>See methods below</td></tr>
+<tr><td>Language preference</td><td>Device local</td><td>See methods below</td></tr>
+<tr><td>Progress (stories, badges, game stats)</td><td>Device local</td><td>See methods below</td></tr>
+<tr><td>App settings</td><td>Device local</td><td>See methods below</td></tr>
+<tr><td>Premium subscription status</td><td>Apple / Google Play (anonymous)</td><td>Cancel via Apple/Google</td></tr>
+</table>
+
+<h2>How to Delete Your Data</h2>
+
+<div class="step">
+<p><span class="step-num">1</span> <strong>Delete from inside the app (recommended):</strong></p>
+<ul>
+  <li>Open the app → go to <strong>Profile</strong> tab</li>
+  <li>Scroll down → switch to <strong>Settings</strong> tab</li>
+  <li>Find the "<strong>🗑️ Data &amp; Privacy</strong>" section</li>
+  <li>Tap "<strong>Delete all my data</strong>"</li>
+  <li>After confirmation, all local data is permanently removed and the app starts fresh</li>
+</ul>
+</div>
+
+<div class="step">
+<p><span class="step-num">2</span> <strong>Delete the app:</strong></p>
+<ul>
+  <li>iOS: Settings → General → iPhone Storage → Fairyland → <strong>Delete App</strong></li>
+  <li>Android: Settings → Apps → Fairyland → <strong>Uninstall</strong></li>
+  <li>This permanently removes all local data.</li>
+</ul>
+</div>
+
+<div class="step">
+<p><span class="step-num">3</span> <strong>Cancel your subscription (if any):</strong></p>
+<ul>
+  <li>iOS: Settings → Apple ID → Subscriptions → Fairyland → <strong>Cancel</strong></li>
+  <li>Android: Google Play Store → Profile → Payments &amp; subscriptions → Subscriptions → Fairyland → <strong>Cancel</strong></li>
+</ul>
+</div>
+
+<div class="step">
+<p><span class="step-num">4</span> <strong>Email request (no server record, but if you want confirmation):</strong></p>
+<ul>
+  <li>Write to: <a href="mailto:ismetdenizbalta@gmail.com">ismetdenizbalta@gmail.com</a></li>
+  <li>Subject: "Data Deletion Request"</li>
+  <li>We respond within 30 days</li>
+  <li>Note: Since we have no personal data on our servers, there may be no record to delete — we will confirm this in writing</li>
+</ul>
+</div>
+
+<h2>Data Not Deleted / Retained</h2>
+<p><strong>None.</strong> Since all app data is stored locally, there is no "data stored on our servers". When you delete the app or use in-app data deletion, <strong>everything is removed</strong>.</p>
+
+<p>Your premium subscription is managed by Apple or Google Play; we do not have access to payment data there. To cancel a subscription, see Step 3 above.</p>
+
+<h2>Your Legal Rights</h2>
+<p>Under KVKK Article 11 (Turkey), GDPR Article 17 (EU), and COPPA (US), you have the right to request deletion of your data. The methods above allow you to exercise this right.</p>
+
+<p>For more information: <a href="privacy-policy-en.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms-en.html">Terms of Use</a></p>
+
+<p style="margin-top:60px;text-align:center;color:#aaa;font-size:13px;">© 2026 İsmet Deniz Balta — Masallar Diyarı / Fairyland</p>
+</body>
+</html>
