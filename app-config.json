@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "stories": {
+    "karga-ile-tilki": { "isFree": true },
+    "aslan-ile-fare": { "isFree": true },
+    "uc-kucuk-domuzcuk": { "isFree": false },
+    "tavsan-ile-kaplumbaga": { "isFree": false },
+    "kirmizi-baslikli-kiz": { "isFree": false },
+    "rapunzel": { "isFree": false },
+    "altin-sacli-kiz": { "isFree": false },
+    "bezelye-prensesi": { "isFree": false },
+    "cizmeli-kedi": { "isFree": false },
+    "karinca-ile-agustos-bocegi": { "isFree": false },
+    "kurt-ve-yedi-keci": { "isFree": false },
+    "nasreddin-hoca": { "isFree": false },
+    "keloglan-sihirli-ayi": { "isFree": false },
+    "orman-muzisyenleri": { "isFree": false },
+    "parmak-cocuk": { "isFree": false },
+    "tirtil": { "isFree": false },
+
+    "ayisin-kis-uykusu": { "isFree": true },
+    "yildiz-tozu": { "isFree": true },
+    "uyuyan-guzel": { "isFree": false },
+    "kurbaga-prens": { "isFree": false },
+    "cirkin-ordek-yavrusu": { "isFree": false },
+    "kibrit-ci-kiz": { "isFree": false },
+    "alaaddin": { "isFree": false },
+    "hansel-ve-gratel": { "isFree": false },
+    "sindirella": { "isFree": false },
+    "ali-baba": { "isFree": false },
+    "pinokyo": { "isFree": false },
+    "kursun-asker": { "isFree": false },
+    "peter-pan": { "isFree": false }
+  }
+}
