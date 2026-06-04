@@ -3,8 +3,8 @@
   "stories": {
     "karga-ile-tilki": { "isFree": true },
     "aslan-ile-fare": { "isFree": true },
-    "uc-kucuk-domuzcuk": { "isFree": false },
-    "tavsan-ile-kaplumbaga": { "isFree": false },
+    "uc-kucuk-domuzcuk": { "isFree": true },
+    "tavsan-ile-kaplumbaga": { "isFree": true },
     "kirmizi-baslikli-kiz": { "isFree": false },
     "rapunzel": { "isFree": false },
     "altin-sacli-kiz": { "isFree": false },
